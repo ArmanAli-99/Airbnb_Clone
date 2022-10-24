@@ -1,0 +1,30 @@
+.first_wrapper{
+    width: 94%;
+    margin-left: auto;
+}
+.first_wrapper h1{
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.slick-slider.slider.variable-width.slick-initialized{
+    position: relative
+}
+.prevBtn{
+    border: 2px solid #f1f1f1;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    left: 1070px;
+    top: -70px;
+    padding: 6px;  
+}
+.nextBtn{
+    border: 2px solid #f1f1f1;  
+    border-radius: 50%;
+    position: absolute;
+    left: 1140px;
+    top: -70px;
+    padding: 6px;
+}
+

@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+}
+.pnb_logo{
+    height: 30px;
+    cursor: pointer;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+    width: inherit;
+}
+.header_right .host_tittle{
+    width: 100%;
+}
+.header_right p{
+    padding: 10px 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header_right p:hover{
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.header_right .globe_container{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_right .globe_container:hover{
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header_right .avatar_container{
+    border: 1px solid #dddddd;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    margin-left: 5px;
+ 
+}
+.avatar_container .avatar_icon{
+    font-size: 33px ;
+    color: grey;
+}
+.avatar_container .menu_icon{
+    font-size: 20px ;
+}
+.avatar_container:hover{
+    box-shadow: 0px 2px 4px #dddddd;
+    cursor: pointer;
+}
+
+
+
+
+
+
